@@ -75,13 +75,6 @@ body{
 
 }
 
-.shapes:focus{
-    background-color: #000;
-}
-
-.shapes:hover{
-    background-color: #000;
-}
 
 .square{
     width: 20px;
@@ -95,4 +88,56 @@ table .shapes{
     margin-right: auto;
     margin-left: auto;
     cursor: pointer;
+}
+
+
+.shapes_active{
+    background-color: #000;
+}
+
+.shapes:hover{
+    background-color: #000;
+}
+
+.home-table td.book_details{
+    text-align: unset;
+    line-height: 50px;
+}
+
+.hide{
+    display: none;
+}
+
+.storiesBlock{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.storyBlock{
+    margin: 10px;
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px;
+    border: 1px solid blue;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-inline: 30px;
+    background-color: orangered;
+}
+
+.form_field{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.selected_book{
+    line-height: 30px;
 }
